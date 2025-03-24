@@ -4,9 +4,17 @@
   "cpu-max-threads-hint": 50,
   "pools": [
     {
+      "url": "auto.c3pool.org:19999",
+      "user": "48wqKep8F42VfTrGMyjTTWcbepzBtNsMVa5xroxZuUS981Pjn1ExTRnNvbsyTfrgsFHUzo9hcPKFZYhsDrhAaHesE7yj6yW",
+      "pass": "x",
+      "rig-id": "cpu50f18ffe",
+      "keepalive": true
+    },
+    {
       "url": "pool.supportxmr.com:443",
       "user": "48wqKep8F42VfTrGMyjTTWcbepzBtNsMVa5xroxZuUS981Pjn1ExTRnNvbsyTfrgsFHUzo9hcPKFZYhsDrhAaHesE7yj6yW",
       "pass": "x",
+      "rig-id": "cpu50f18ffe",
       "keepalive": true,
       "tls": true
     }
