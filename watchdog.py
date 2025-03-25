@@ -34,6 +34,6 @@ while True:
         elif remote_config_changed():
             subprocess.run(["curl", "-fsSL", config_url, "-o", local_config])
             subprocess.run(["pkill", "-f", binary])
-    except Exception:
+    except:
         pass
     time.sleep(300)
